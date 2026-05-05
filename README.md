@@ -34,6 +34,10 @@ python3 -m http.server 8080
 # then open http://localhost:8080
 ```
 
+## Learnings
+
+See [LEARNINGS.md](LEARNINGS.md) for what worked, what didn't, and what to do differently for the next role-type job board.
+
 ## Data refresh
 
 Replace the CSV and regenerate `data/jobs.json` using the conversion logic in the initial commit, or later add a script under `scripts/`.
