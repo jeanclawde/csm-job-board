@@ -223,9 +223,20 @@ button[aria-pressed="true"] {
 }
 .star.active { color: var(--star); border-color: rgba(250,204,21,.55); background: rgba(250,204,21,.11); }
 .card-content { min-width: 0; flex: 1; }
-.card-topline { display:flex; justify-content:space-between; gap: 10px; color: var(--muted); font-size: 12px; }
-.company { color: #b8b7ff; font-weight: 900; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.updated { white-space: nowrap; color: #62666d; }
+.card-topline { display:flex; justify-content:space-between; gap: 10px; color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: .08em; font-weight: 800; }
+.company-label { color: #62666d; }
+.company {
+  margin: 6px 0 5px;
+  color: #f7f8f8;
+  font-size: 21px;
+  line-height: 1.05;
+  letter-spacing: -0.04em;
+  font-weight: 800;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.updated { white-space: nowrap; color: #62666d; text-transform: none; letter-spacing: 0; }
 h2 { margin: 8px 0; font-size: 18px; line-height: 1.18; letter-spacing: -0.025em; font-weight: 700; }
 .meta { margin: 0 0 10px; color: var(--muted); font-size: 13px; line-height: 1.35; }
 .chips { display:flex; flex-wrap:wrap; gap: 6px; margin-bottom: 12px; }
