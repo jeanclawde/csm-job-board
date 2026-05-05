@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#111827" />
+  <title>CSM Job Board</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div>
+      <p class="eyebrow">Customer Success Manager roles</p>
+      <h1>CSM Job Board</h1>
+      <p class="subtitle">Filter offers, open the original posting, and keep a phone-local shortlist with ⭐ stars.</p>
+    </div>
+    <div class="stats">
+      <strong id="visibleCount">—</strong>
+      <span id="totalCount">offers</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="toolbar" aria-label="Filters">
+      <label class="search">
+        <span>Search</span>
+        <input id="searchInput" type="search" placeholder="company, title, location…" autocomplete="off" />
+      </label>
+
+      <div class="grid-filters">
+        <label><span>Region</span><select id="regionFilter"><option value="">All regions</option></select></label>
+        <label><span>Provider</span><select id="providerFilter"><option value="">All ATS</option></select></label>
+        <label><span>Department</span><select id="departmentFilter"><option value="">All departments</option></select></label>
+        <label><span>Company</span><select id="companyFilter"><option value="">All companies</option></select></label>
+      </div>
+
+      <div class="actions-row">
+        <button id="starredOnly" type="button" aria-pressed="false">⭐ Starred only</button>
+        <button id="clearFilters" type="button">Clear filters</button>
+        <button id="exportStars" type="button">Export stars</button>
+        <label class="import-button">Import stars<input id="importStars" type="file" accept="application/json" /></label>
+      </div>
+    </section>
+
+    <section id="jobList" class="job-list" aria-live="polite"></section>
+    <p id="emptyState" class="empty" hidden>No offers match these filters.</p>
+  </main>
+
+  <template id="jobCardTemplate">
+    <article class="card">
+      <button class="star" type="button" aria-label="Star offer">☆</button>
+      <div class="card-content">
+        <div class="card-topline">
+          <span class="company"></span>
+          <span class="updated"></span>
+        </div>
+        <h2></h2>
+        <p class="meta"></p>
+        <div class="chips"></div>
+        <a class="open" target="_blank" rel="noopener noreferrer">Open offer ↗</a>
+      </div>
+    </article>
+  </template>
+
+  <script src="app.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
+
+# local server/cache
+*.log
