@@ -11,7 +11,7 @@ const els = {
   department: $('departmentFilter'), company: $('companyFilter'), starredOnly: $('starredOnly'),
   clear: $('clearFilters'),
   list: $('jobList'), template: $('jobCardTemplate'), empty: $('emptyState'),
-  visible: $('visibleCount'), total: $('totalCount'), filterPanel: $('filterPanel'),
+  filterPanel: $('filterPanel'), toolbar: document.querySelector('.toolbar'),
 };
 
 function uniq(values) { return [...new Set(values.filter(Boolean))].sort((a,b) => a.localeCompare(b)); }
@@ -40,8 +40,6 @@ function matches(job) {
 function render() {
   const jobs = state.jobs.filter(matches);
   els.list.replaceChildren();
-  els.visible.textContent = jobs.length;
-  els.total.textContent = `of ${state.jobs.length} offers`;
   els.empty.hidden = jobs.length > 0;
   for (const job of jobs) {
     const node = els.template.content.firstElementChild.cloneNode(true);
@@ -66,8 +64,24 @@ function render() {
     els.list.append(node);
   }
 }
+function openFilters() {
+  els.filterPanel.open = true;
+}
+
+function closeFiltersIfOutside(event) {
+  if (!els.toolbar.contains(event.target)) {
+    els.filterPanel.open = false;
+  }
+}
+
 function wireEvents() {
   [els.search, els.region, els.provider, els.department, els.company].forEach(el => el.addEventListener('input', render));
+  els.search.addEventListener('focus', openFilters);
+  els.search.addEventListener('click', openFilters);
+  document.addEventListener('pointerdown', closeFiltersIfOutside);
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') els.filterPanel.open = false;
+  });
   els.starredOnly.addEventListener('click', () => {
     state.starredOnly = !state.starredOnly;
     els.starredOnly.setAttribute('aria-pressed', String(state.starredOnly));
@@ -76,6 +90,7 @@ function wireEvents() {
   els.clear.addEventListener('click', () => {
     els.search.value = els.region.value = els.provider.value = els.department.value = els.company.value = '';
     state.starredOnly = false; els.starredOnly.setAttribute('aria-pressed', 'false'); render();
+    els.search.focus();
   });
 }
 async function init() {

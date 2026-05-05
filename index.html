@@ -13,14 +13,7 @@
 <body>
   <header class="hero">
     <div class="hero-copy">
-      <p class="eyebrow"><span></span> Curated CSM roles</p>
-      <h1>Find the offers worth her time.</h1>
-      <p class="subtitle">A fast shortlist cockpit for Customer Success roles: scan, filter, star, and open the original posting.</p>
-    </div>
-    <div class="stats" aria-label="Visible offers">
-      <span class="stats-label">Matching</span>
-      <strong id="visibleCount">—</strong>
-      <span id="totalCount">offers</span>
+      <h1>My future SCM role is there</h1>
     </div>
   </header>
 
@@ -30,27 +23,27 @@
         <span>Search</span>
         <input id="searchInput" type="search" placeholder="company, title, location…" autocomplete="off" />
       </label>
+
+      <details id="filterPanel" class="advanced-filters">
+        <summary>
+          <span>Filters</span>
+          <small>Region, ATS, department, company, starred</small>
+        </summary>
+
+        <div class="filter-body">
+          <div class="grid-filters">
+            <label><span>Region</span><select id="regionFilter"><option value="">All regions</option></select></label>
+            <label><span>Provider</span><select id="providerFilter"><option value="">All ATS</option></select></label>
+            <label><span>Department</span><select id="departmentFilter"><option value="">All departments</option></select></label>
+            <label><span>Company</span><select id="companyFilter"><option value="">All companies</option></select></label>
+          </div>
+          <div class="actions-row">
+            <button id="starredOnly" type="button" aria-pressed="false">⭐ Starred only</button>
+            <button id="clearFilters" type="button">Reset filters</button>
+          </div>
+        </div>
+      </details>
     </section>
-
-    <details id="filterPanel" class="advanced-filters">
-      <summary>
-        <span>Filters</span>
-        <small>Region, ATS, department, company, starred</small>
-      </summary>
-
-      <div class="filter-body">
-        <div class="grid-filters">
-          <label><span>Region</span><select id="regionFilter"><option value="">All regions</option></select></label>
-          <label><span>Provider</span><select id="providerFilter"><option value="">All ATS</option></select></label>
-          <label><span>Department</span><select id="departmentFilter"><option value="">All departments</option></select></label>
-          <label><span>Company</span><select id="companyFilter"><option value="">All companies</option></select></label>
-        </div>
-        <div class="actions-row">
-          <button id="starredOnly" type="button" aria-pressed="false">⭐ Starred only</button>
-          <button id="clearFilters" type="button">Reset filters</button>
-        </div>
-      </div>
-    </details>
 
     <section id="jobList" class="job-list" aria-live="polite"></section>
     <p id="emptyState" class="empty" hidden>No offers match these filters.</p>
