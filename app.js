@@ -11,7 +11,7 @@ const els = {
   department: $('departmentFilter'), company: $('companyFilter'), starredOnly: $('starredOnly'),
   clear: $('clearFilters'), exportStars: $('exportStars'), importStars: $('importStars'),
   list: $('jobList'), template: $('jobCardTemplate'), empty: $('emptyState'),
-  visible: $('visibleCount'), total: $('totalCount'),
+  visible: $('visibleCount'), total: $('totalCount'), filterPanel: $('filterPanel'),
 };
 
 function uniq(values) { return [...new Set(values.filter(Boolean))].sort((a,b) => a.localeCompare(b)); }
@@ -67,6 +67,9 @@ function render() {
   }
 }
 function wireEvents() {
+  const syncFilterPanel = () => { els.filterPanel.open = window.matchMedia('(min-width: 720px)').matches; };
+  syncFilterPanel();
+  window.addEventListener('resize', syncFilterPanel);
   [els.search, els.region, els.provider, els.department, els.company].forEach(el => el.addEventListener('input', render));
   els.starredOnly.addEventListener('click', () => {
     state.starredOnly = !state.starredOnly;
