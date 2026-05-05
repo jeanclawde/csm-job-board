@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-05T07:23:26.334345Z",
-  "count": 484,
+  "generated_at": "2026-05-05T12:59:33.112978+00:00",
+  "count": 428,
   "jobs": [
     {
       "id": "25fc009f95d9",
@@ -862,20 +862,6 @@
       "region_tags": []
     },
     {
-      "id": "cf738b4f9de3",
-      "title": "Customer Success Manager",
-      "company": "Jobgether",
-      "source_key": "jobgether",
-      "location": "Slovenia",
-      "department": "Support",
-      "job_url": "https://jobs.lever.co/jobgether/86f2102c-28e8-4010-9ac0-65d47d3f983e",
-      "updated_at": "2026-04-28T08:03:07.300Z",
-      "employment_type": "Full-time",
-      "compensation": "",
-      "provider": "lever",
-      "region_tags": []
-    },
-    {
       "id": "f2be2739e4f3",
       "title": "Customer Success Manager",
       "company": "Jobgether",
@@ -884,20 +870,6 @@
       "department": "Support",
       "job_url": "https://jobs.lever.co/jobgether/7c79914d-a165-4a08-b3aa-a80f88c8152c",
       "updated_at": "2026-04-28T08:02:54.848Z",
-      "employment_type": "Full-time",
-      "compensation": "",
-      "provider": "lever",
-      "region_tags": []
-    },
-    {
-      "id": "791dafec4596",
-      "title": "Customer Success Manager",
-      "company": "Jobgether",
-      "source_key": "jobgether",
-      "location": "Israel",
-      "department": "Support",
-      "job_url": "https://jobs.lever.co/jobgether/0c7476bc-da3e-44ec-a524-6c86811283a6",
-      "updated_at": "2026-04-28T08:02:42.156Z",
       "employment_type": "Full-time",
       "compensation": "",
       "provider": "lever",
@@ -1185,22 +1157,6 @@
       ]
     },
     {
-      "id": "ffacf9d25bdf",
-      "title": "Customer Success Manager - Defence and Intelligence",
-      "company": "Jobgether",
-      "source_key": "jobgether",
-      "location": "Netherlands",
-      "department": "Support",
-      "job_url": "https://jobs.lever.co/jobgether/ff1baad5-fdf0-4aff-a4b9-170ad793138c",
-      "updated_at": "2026-04-28T05:11:18.303Z",
-      "employment_type": "Full-time",
-      "compensation": "",
-      "provider": "lever",
-      "region_tags": [
-        "Europe/EMEA"
-      ]
-    },
-    {
       "id": "0928866e3d0c",
       "title": "Customer Success Manager - Defence and Intelligence",
       "company": "Jobgether",
@@ -1229,22 +1185,6 @@
       "compensation": "",
       "provider": "lever",
       "region_tags": []
-    },
-    {
-      "id": "33be810c38a2",
-      "title": "Customer Success Manager - Defence and Intelligence",
-      "company": "Jobgether",
-      "source_key": "jobgether",
-      "location": "France",
-      "department": "Support",
-      "job_url": "https://jobs.lever.co/jobgether/d6e2fb9e-a919-4834-b807-fcdec680863c",
-      "updated_at": "2026-04-28T05:10:30.968Z",
-      "employment_type": "Full-time",
-      "compensation": "",
-      "provider": "lever",
-      "region_tags": [
-        "France"
-      ]
     },
     {
       "id": "6eed575b0bf2",
@@ -1597,118 +1537,6 @@
       ]
     },
     {
-      "id": "d445ce645bcc",
-      "title": "Remote Senior Customer Success Manager",
-      "company": "Jobgether",
-      "source_key": "jobgether",
-      "location": "Illinois",
-      "department": "General",
-      "job_url": "https://jobs.lever.co/jobgether/b882ddc6-b5b7-421f-b63b-ceebccc13c5d",
-      "updated_at": "2026-04-27T06:02:35.667Z",
-      "employment_type": "Full-time",
-      "compensation": "",
-      "provider": "lever",
-      "region_tags": [
-        "Remote"
-      ]
-    },
-    {
-      "id": "36b1c641155e",
-      "title": "Senior Customer Success Manager - Remote",
-      "company": "Jobgether",
-      "source_key": "jobgether",
-      "location": "Columbia",
-      "department": "General",
-      "job_url": "https://jobs.lever.co/jobgether/599c6fd3-de10-400d-b25e-c81f1646f4a4",
-      "updated_at": "2026-04-27T06:02:34.870Z",
-      "employment_type": "Full-time",
-      "compensation": "",
-      "provider": "lever",
-      "region_tags": [
-        "Remote"
-      ]
-    },
-    {
-      "id": "b7e7022298da",
-      "title": "Lead Customer Success Manager (Remote)",
-      "company": "Jobgether",
-      "source_key": "jobgether",
-      "location": "Colorado",
-      "department": "General",
-      "job_url": "https://jobs.lever.co/jobgether/2b426616-887b-4632-a434-765d3168f925",
-      "updated_at": "2026-04-27T06:02:34.422Z",
-      "employment_type": "Full-time",
-      "compensation": "",
-      "provider": "lever",
-      "region_tags": [
-        "Remote"
-      ]
-    },
-    {
-      "id": "f0ed2fac82c5",
-      "title": "Sr. Customer Success Manager - REMOTE",
-      "company": "Jobgether",
-      "source_key": "jobgether",
-      "location": "Florida",
-      "department": "General",
-      "job_url": "https://jobs.lever.co/jobgether/8b6b04c8-32a1-4542-9203-cf158359a166",
-      "updated_at": "2026-04-27T06:02:33.963Z",
-      "employment_type": "Full-time",
-      "compensation": "",
-      "provider": "lever",
-      "region_tags": [
-        "Remote"
-      ]
-    },
-    {
-      "id": "af30b6f615c7",
-      "title": "Remote Customer Success Manager",
-      "company": "Jobgether",
-      "source_key": "jobgether",
-      "location": "California",
-      "department": "General",
-      "job_url": "https://jobs.lever.co/jobgether/013227e3-3050-49b2-9ed5-6a1691346af6",
-      "updated_at": "2026-04-27T06:02:33.455Z",
-      "employment_type": "Full-time",
-      "compensation": "",
-      "provider": "lever",
-      "region_tags": [
-        "Remote"
-      ]
-    },
-    {
-      "id": "861b3dc9b5f4",
-      "title": "Customer Success Manager (Remote)",
-      "company": "Jobgether",
-      "source_key": "jobgether",
-      "location": "Connecticut",
-      "department": "General",
-      "job_url": "https://jobs.lever.co/jobgether/2a87107c-3fb2-4c8d-b069-e47a9d77cf5b",
-      "updated_at": "2026-04-27T06:02:32.999Z",
-      "employment_type": "Full-time",
-      "compensation": "",
-      "provider": "lever",
-      "region_tags": [
-        "Remote"
-      ]
-    },
-    {
-      "id": "13b830171223",
-      "title": "Customer Success Manager - REMOTE",
-      "company": "Jobgether",
-      "source_key": "jobgether",
-      "location": "Arizona",
-      "department": "General",
-      "job_url": "https://jobs.lever.co/jobgether/d91d9cfc-0eeb-4197-b02c-1e590ca09ff1",
-      "updated_at": "2026-04-27T06:02:32.556Z",
-      "employment_type": "Full-time",
-      "compensation": "",
-      "provider": "lever",
-      "region_tags": [
-        "Remote"
-      ]
-    },
-    {
       "id": "8f8ba7f31bf0",
       "title": "Customer Success Manager - Defence and Intelligence (Middle East)",
       "company": "Planetlabs",
@@ -1727,22 +1555,6 @@
       ]
     },
     {
-      "id": "c286375b7393",
-      "title": "Customer Success Manager",
-      "company": "Jobgether",
-      "source_key": "jobgether",
-      "location": "UK",
-      "department": "Support",
-      "job_url": "https://jobs.lever.co/jobgether/7a929536-92cc-45ed-8517-5d65036b6dd3",
-      "updated_at": "2026-04-27T04:48:11.180Z",
-      "employment_type": "Full-time",
-      "compensation": "",
-      "provider": "lever",
-      "region_tags": [
-        "Europe/EMEA"
-      ]
-    },
-    {
       "id": "00b8b95b5b59",
       "title": "Senior Customer Success Manager - Switzerland",
       "company": "Dataiku",
@@ -1754,262 +1566,6 @@
       "employment_type": "Not specified",
       "compensation": "",
       "provider": "greenhouse",
-      "region_tags": [
-        "Remote"
-      ]
-    },
-    {
-      "id": "e8fcbae05d6d",
-      "title": "Senior Customer Success Manager Remote",
-      "company": "Jobgether",
-      "source_key": "jobgether",
-      "location": "Virginia",
-      "department": "General",
-      "job_url": "https://jobs.lever.co/jobgether/ac26c073-22db-4d0a-b2b0-62aef819771e",
-      "updated_at": "2026-04-26T06:02:33.981Z",
-      "employment_type": "Full-time",
-      "compensation": "",
-      "provider": "lever",
-      "region_tags": [
-        "Remote"
-      ]
-    },
-    {
-      "id": "59345157b838",
-      "title": "Remote Customer Success Manager - Sr.",
-      "company": "Jobgether",
-      "source_key": "jobgether",
-      "location": "Pennsylvania",
-      "department": "General",
-      "job_url": "https://jobs.lever.co/jobgether/c3614aa2-f68f-4bf6-a935-702daab95b28",
-      "updated_at": "2026-04-26T06:02:32.650Z",
-      "employment_type": "Full-time",
-      "compensation": "",
-      "provider": "lever",
-      "region_tags": [
-        "Remote"
-      ]
-    },
-    {
-      "id": "bbd4b65f7e7b",
-      "title": "Remote Sr Customer Success Manager",
-      "company": "Jobgether",
-      "source_key": "jobgether",
-      "location": "North Carolina",
-      "department": "General",
-      "job_url": "https://jobs.lever.co/jobgether/26aba92e-e1be-42c5-b4f1-03f865f5ef77",
-      "updated_at": "2026-04-26T06:02:31.657Z",
-      "employment_type": "Full-time",
-      "compensation": "",
-      "provider": "lever",
-      "region_tags": [
-        "Remote"
-      ]
-    },
-    {
-      "id": "79d55200298e",
-      "title": "Customer Success Manager (Remote)",
-      "company": "Jobgether",
-      "source_key": "jobgether",
-      "location": "New Jersey",
-      "department": "General",
-      "job_url": "https://jobs.lever.co/jobgether/7b1ff9ef-d9bb-44c9-91a5-46ebb19f2869",
-      "updated_at": "2026-04-26T06:02:31.250Z",
-      "employment_type": "Full-time",
-      "compensation": "",
-      "provider": "lever",
-      "region_tags": [
-        "Remote"
-      ]
-    },
-    {
-      "id": "303ddfcf4bb6",
-      "title": "Remote Lead Customer Success Manager",
-      "company": "Jobgether",
-      "source_key": "jobgether",
-      "location": "Maine",
-      "department": "General",
-      "job_url": "https://jobs.lever.co/jobgether/4771ebfb-6787-4a2f-a860-1a1220e2e170",
-      "updated_at": "2026-04-26T06:02:30.848Z",
-      "employment_type": "Full-time",
-      "compensation": "",
-      "provider": "lever",
-      "region_tags": [
-        "Remote"
-      ]
-    },
-    {
-      "id": "510fb02bec4a",
-      "title": "Customer Success Manager - REMOTE",
-      "company": "Jobgether",
-      "source_key": "jobgether",
-      "location": "Michigan",
-      "department": "General",
-      "job_url": "https://jobs.lever.co/jobgether/efc4c353-c341-4bc9-9352-84faaa46facd",
-      "updated_at": "2026-04-26T06:02:30.444Z",
-      "employment_type": "Full-time",
-      "compensation": "",
-      "provider": "lever",
-      "region_tags": [
-        "Remote"
-      ]
-    },
-    {
-      "id": "e9c781dc19d8",
-      "title": "Remote Senior Customer Success Manager",
-      "company": "Jobgether",
-      "source_key": "jobgether",
-      "location": "Maryland",
-      "department": "General",
-      "job_url": "https://jobs.lever.co/jobgether/c201f4d8-6976-4c2d-8cd9-b3194b34de72",
-      "updated_at": "2026-04-26T06:02:29.957Z",
-      "employment_type": "Full-time",
-      "compensation": "",
-      "provider": "lever",
-      "region_tags": [
-        "Remote"
-      ]
-    },
-    {
-      "id": "3a4631beb5ed",
-      "title": "Lead Customer Success Manager (Remote)",
-      "company": "Jobgether",
-      "source_key": "jobgether",
-      "location": "Massachusetts",
-      "department": "General",
-      "job_url": "https://jobs.lever.co/jobgether/d7b30a20-1041-48f3-8dd1-4b8970e92b70",
-      "updated_at": "2026-04-26T06:02:29.519Z",
-      "employment_type": "Full-time",
-      "compensation": "",
-      "provider": "lever",
-      "region_tags": [
-        "Remote"
-      ]
-    },
-    {
-      "id": "a0f3b12b3999",
-      "title": "Senior Customer Success Manager (Remote)",
-      "company": "Jobgether",
-      "source_key": "jobgether",
-      "location": "Idaho",
-      "department": "General",
-      "job_url": "https://jobs.lever.co/jobgether/a00802e5-0379-46e7-bf12-2857f050eaf1",
-      "updated_at": "2026-04-26T06:02:28.634Z",
-      "employment_type": "Full-time",
-      "compensation": "",
-      "provider": "lever",
-      "region_tags": [
-        "Remote"
-      ]
-    },
-    {
-      "id": "2be2f267f732",
-      "title": "Remote Sr. Customer Success Manager",
-      "company": "Jobgether",
-      "source_key": "jobgether",
-      "location": "Illinois",
-      "department": "General",
-      "job_url": "https://jobs.lever.co/jobgether/47b1119f-5b5a-416c-95d6-df7d89fe3528",
-      "updated_at": "2026-04-26T06:02:28.179Z",
-      "employment_type": "Full-time",
-      "compensation": "",
-      "provider": "lever",
-      "region_tags": [
-        "Remote"
-      ]
-    },
-    {
-      "id": "6f3bd4972b09",
-      "title": "Sr Customer Success Manager - REMOTE",
-      "company": "Jobgether",
-      "source_key": "jobgether",
-      "location": "Columbia",
-      "department": "General",
-      "job_url": "https://jobs.lever.co/jobgether/abe9479c-38c7-4c9a-8543-7397666d0d28",
-      "updated_at": "2026-04-26T06:02:27.748Z",
-      "employment_type": "Full-time",
-      "compensation": "",
-      "provider": "lever",
-      "region_tags": [
-        "Remote"
-      ]
-    },
-    {
-      "id": "cb4c27b4ae7a",
-      "title": "Remote Customer Success Manager",
-      "company": "Jobgether",
-      "source_key": "jobgether",
-      "location": "Colorado",
-      "department": "General",
-      "job_url": "https://jobs.lever.co/jobgether/5ddff3a2-76af-4369-8fbc-65487c20e5d0",
-      "updated_at": "2026-04-26T06:02:27.337Z",
-      "employment_type": "Full-time",
-      "compensation": "",
-      "provider": "lever",
-      "region_tags": [
-        "Remote"
-      ]
-    },
-    {
-      "id": "2fb1c818ca04",
-      "title": "Lead Customer Success Manager - Remote",
-      "company": "Jobgether",
-      "source_key": "jobgether",
-      "location": "Florida",
-      "department": "General",
-      "job_url": "https://jobs.lever.co/jobgether/81d667d7-3e94-4a96-b9f4-645d52171503",
-      "updated_at": "2026-04-26T06:02:26.896Z",
-      "employment_type": "Full-time",
-      "compensation": "",
-      "provider": "lever",
-      "region_tags": [
-        "Remote"
-      ]
-    },
-    {
-      "id": "7621d5788d47",
-      "title": "Remote Senior Customer Success Manager",
-      "company": "Jobgether",
-      "source_key": "jobgether",
-      "location": "California",
-      "department": "General",
-      "job_url": "https://jobs.lever.co/jobgether/d04e7d1b-98ac-4337-8105-956e628a0c4a",
-      "updated_at": "2026-04-26T06:02:26.468Z",
-      "employment_type": "Full-time",
-      "compensation": "",
-      "provider": "lever",
-      "region_tags": [
-        "Remote"
-      ]
-    },
-    {
-      "id": "8e539c6aa4f6",
-      "title": "Sr. Customer Success Manager (Remote)",
-      "company": "Jobgether",
-      "source_key": "jobgether",
-      "location": "Connecticut",
-      "department": "General",
-      "job_url": "https://jobs.lever.co/jobgether/5dc8d90d-c242-4958-8cd3-90b5b2709f1b",
-      "updated_at": "2026-04-26T06:02:26.028Z",
-      "employment_type": "Full-time",
-      "compensation": "",
-      "provider": "lever",
-      "region_tags": [
-        "Remote"
-      ]
-    },
-    {
-      "id": "6a7d3e89e5a8",
-      "title": "Senior Customer Success Manager - REMOTE",
-      "company": "Jobgether",
-      "source_key": "jobgether",
-      "location": "Arizona",
-      "department": "General",
-      "job_url": "https://jobs.lever.co/jobgether/26ff237d-7219-433c-b3d3-fd17c7e8c59a",
-      "updated_at": "2026-04-26T06:02:25.590Z",
-      "employment_type": "Full-time",
-      "compensation": "",
-      "provider": "lever",
       "region_tags": [
         "Remote"
       ]
@@ -2071,62 +1627,6 @@
       "department": "Not specified",
       "job_url": "https://remoterecruitment.teamtailor.com/jobs/7637717-customer-success-manager",
       "updated_at": "2026-04-25T05:02:48.000Z",
-      "employment_type": "Not specified",
-      "compensation": "",
-      "provider": "teamtailor",
-      "region_tags": []
-    },
-    {
-      "id": "8cbc7212735c",
-      "title": "Customer Success Manager",
-      "company": "Remoterecruitment",
-      "source_key": "remoterecruitment",
-      "location": "Not specified",
-      "department": "Not specified",
-      "job_url": "https://remoterecruitment.teamtailor.com/jobs/7637716-customer-success-manager",
-      "updated_at": "2026-04-25T05:02:47.000Z",
-      "employment_type": "Not specified",
-      "compensation": "",
-      "provider": "teamtailor",
-      "region_tags": []
-    },
-    {
-      "id": "45d687f0646e",
-      "title": "Customer Success Manager",
-      "company": "Remoterecruitment",
-      "source_key": "remoterecruitment",
-      "location": "Not specified",
-      "department": "Not specified",
-      "job_url": "https://remoterecruitment.teamtailor.com/jobs/7637715-customer-success-manager",
-      "updated_at": "2026-04-25T05:02:46.000Z",
-      "employment_type": "Not specified",
-      "compensation": "",
-      "provider": "teamtailor",
-      "region_tags": []
-    },
-    {
-      "id": "32b4df4f015f",
-      "title": "Customer Success Manager",
-      "company": "Remoterecruitment",
-      "source_key": "remoterecruitment",
-      "location": "Not specified",
-      "department": "Not specified",
-      "job_url": "https://remoterecruitment.teamtailor.com/jobs/7637714-customer-success-manager",
-      "updated_at": "2026-04-25T05:02:44.000Z",
-      "employment_type": "Not specified",
-      "compensation": "",
-      "provider": "teamtailor",
-      "region_tags": []
-    },
-    {
-      "id": "b0930f2c862f",
-      "title": "Customer Success Manager",
-      "company": "Remoterecruitment",
-      "source_key": "remoterecruitment",
-      "location": "Not specified",
-      "department": "Not specified",
-      "job_url": "https://remoterecruitment.teamtailor.com/jobs/7637713-customer-success-manager",
-      "updated_at": "2026-04-25T05:02:42.000Z",
       "employment_type": "Not specified",
       "compensation": "",
       "provider": "teamtailor",
@@ -2215,22 +1715,6 @@
       ]
     },
     {
-      "id": "5b16b465b168",
-      "title": "Strategic Customer Success Manager",
-      "company": "Jobgether",
-      "source_key": "jobgether",
-      "location": "US",
-      "department": "Support",
-      "job_url": "https://jobs.lever.co/jobgether/31e836c9-9c6f-4bb6-998d-d523f869ef5c",
-      "updated_at": "2026-04-24T14:25:19.321Z",
-      "employment_type": "Full-time",
-      "compensation": "",
-      "provider": "lever",
-      "region_tags": [
-        "US/Canada"
-      ]
-    },
-    {
       "id": "738f60a048a3",
       "title": "Customer Success Manager",
       "company": "Observeai",
@@ -2261,22 +1745,6 @@
       "provider": "greenhouse",
       "region_tags": [
         "Remote",
-        "US/Canada"
-      ]
-    },
-    {
-      "id": "d1d8b31b7d0b",
-      "title": "Senior Customer Success Manager, Enterprise",
-      "company": "Jobgether",
-      "source_key": "jobgether",
-      "location": "US",
-      "department": "Support",
-      "job_url": "https://jobs.lever.co/jobgether/50c9e89f-0380-47e8-836b-0548e06a094e",
-      "updated_at": "2026-04-24T12:00:06.225Z",
-      "employment_type": "Full-time",
-      "compensation": "",
-      "provider": "lever",
-      "region_tags": [
         "US/Canada"
       ]
     },
@@ -2641,246 +2109,6 @@
       ]
     },
     {
-      "id": "7cdf6abea4a7",
-      "title": "Customer Success Manager",
-      "company": "Jobgether",
-      "source_key": "jobgether",
-      "location": "US",
-      "department": "Support",
-      "job_url": "https://jobs.lever.co/jobgether/6fe3bb5e-962c-4697-b2ba-f94f963c6ec1",
-      "updated_at": "2026-04-23T09:52:59.209Z",
-      "employment_type": "Full-time",
-      "compensation": "",
-      "provider": "lever",
-      "region_tags": [
-        "US/Canada"
-      ]
-    },
-    {
-      "id": "4b640b535326",
-      "title": "Customer Success Manager, Strategic",
-      "company": "Jobgether",
-      "source_key": "jobgether",
-      "location": "US",
-      "department": "Project Management",
-      "job_url": "https://jobs.lever.co/jobgether/5d736ac7-3f31-4a0f-97bf-dc30cb0e98ca",
-      "updated_at": "2026-04-23T09:33:07.870Z",
-      "employment_type": "Full-time",
-      "compensation": "",
-      "provider": "lever",
-      "region_tags": [
-        "US/Canada"
-      ]
-    },
-    {
-      "id": "6bf0f55d71f6",
-      "title": "Customer Success Manager (Remote)",
-      "company": "Jobgether",
-      "source_key": "jobgether",
-      "location": "Virginia",
-      "department": "General",
-      "job_url": "https://jobs.lever.co/jobgether/98a6c314-9bba-4329-a053-267e8a04cb28",
-      "updated_at": "2026-04-23T06:02:34.790Z",
-      "employment_type": "Full-time",
-      "compensation": "",
-      "provider": "lever",
-      "region_tags": [
-        "Remote"
-      ]
-    },
-    {
-      "id": "7f3ccb7d2a00",
-      "title": "Remote Lead Customer Success Manager",
-      "company": "Jobgether",
-      "source_key": "jobgether",
-      "location": "North Carolina",
-      "department": "General",
-      "job_url": "https://jobs.lever.co/jobgether/d2ab5fc2-aa30-41a4-84e7-79221e31aeb0",
-      "updated_at": "2026-04-23T06:02:32.166Z",
-      "employment_type": "Full-time",
-      "compensation": "",
-      "provider": "lever",
-      "region_tags": [
-        "Remote"
-      ]
-    },
-    {
-      "id": "d5d3c2b9c84a",
-      "title": "Customer Success Manager - REMOTE",
-      "company": "Jobgether",
-      "source_key": "jobgether",
-      "location": "New Jersey",
-      "department": "General",
-      "job_url": "https://jobs.lever.co/jobgether/4e0af263-34d3-4852-8fc6-feeb8c41f9ae",
-      "updated_at": "2026-04-23T06:02:31.703Z",
-      "employment_type": "Full-time",
-      "compensation": "",
-      "provider": "lever",
-      "region_tags": [
-        "Remote"
-      ]
-    },
-    {
-      "id": "7040b6ba9396",
-      "title": "Lead Customer Success Manager (Remote)",
-      "company": "Jobgether",
-      "source_key": "jobgether",
-      "location": "Maine",
-      "department": "General",
-      "job_url": "https://jobs.lever.co/jobgether/cf90e566-be18-4c90-9080-38f9e361a12c",
-      "updated_at": "2026-04-23T06:02:31.180Z",
-      "employment_type": "Full-time",
-      "compensation": "",
-      "provider": "lever",
-      "region_tags": [
-        "Remote"
-      ]
-    },
-    {
-      "id": "f44b335d3859",
-      "title": "Remote Sr. Customer Success Manager",
-      "company": "Jobgether",
-      "source_key": "jobgether",
-      "location": "Michigan",
-      "department": "General",
-      "job_url": "https://jobs.lever.co/jobgether/1f4443d2-f4c0-4f2e-a323-ade03d64967e",
-      "updated_at": "2026-04-23T06:02:30.504Z",
-      "employment_type": "Full-time",
-      "compensation": "",
-      "provider": "lever",
-      "region_tags": [
-        "Remote"
-      ]
-    },
-    {
-      "id": "513bfbc1ed54",
-      "title": "Remote Customer Success Manager",
-      "company": "Jobgether",
-      "source_key": "jobgether",
-      "location": "Maryland",
-      "department": "General",
-      "job_url": "https://jobs.lever.co/jobgether/7fc7c7df-683e-423b-9f17-43a32385e7de",
-      "updated_at": "2026-04-23T06:02:30.021Z",
-      "employment_type": "Full-time",
-      "compensation": "",
-      "provider": "lever",
-      "region_tags": [
-        "Remote"
-      ]
-    },
-    {
-      "id": "0bee8ead5b7e",
-      "title": "Senior Customer Success Manager (Remote)",
-      "company": "Jobgether",
-      "source_key": "jobgether",
-      "location": "Massachusetts",
-      "department": "General",
-      "job_url": "https://jobs.lever.co/jobgether/36bdd246-7963-4b3e-8a43-89d1ae66189a",
-      "updated_at": "2026-04-23T06:02:29.504Z",
-      "employment_type": "Full-time",
-      "compensation": "",
-      "provider": "lever",
-      "region_tags": [
-        "Remote"
-      ]
-    },
-    {
-      "id": "c2d4904f3dc1",
-      "title": "Remote Senior Customer Success Manager",
-      "company": "Jobgether",
-      "source_key": "jobgether",
-      "location": "Idaho",
-      "department": "General",
-      "job_url": "https://jobs.lever.co/jobgether/ac6c7e8d-6c5d-4b29-b069-ff6c4e228411",
-      "updated_at": "2026-04-23T06:02:28.550Z",
-      "employment_type": "Full-time",
-      "compensation": "",
-      "provider": "lever",
-      "region_tags": [
-        "Remote"
-      ]
-    },
-    {
-      "id": "1cb3b287bff5",
-      "title": "Sr Customer Success Manager - REMOTE",
-      "company": "Jobgether",
-      "source_key": "jobgether",
-      "location": "Illinois",
-      "department": "General",
-      "job_url": "https://jobs.lever.co/jobgether/8e70c54d-5a01-48cb-816c-cbcaad5017a7",
-      "updated_at": "2026-04-23T06:02:27.901Z",
-      "employment_type": "Full-time",
-      "compensation": "",
-      "provider": "lever",
-      "region_tags": [
-        "Remote"
-      ]
-    },
-    {
-      "id": "db3e89927c93",
-      "title": "Senior Customer Success Manager - Remote",
-      "company": "Jobgether",
-      "source_key": "jobgether",
-      "location": "Florida",
-      "department": "General",
-      "job_url": "https://jobs.lever.co/jobgether/add4b57c-7d0c-4669-a05c-347cd65fbe56",
-      "updated_at": "2026-04-23T06:02:26.426Z",
-      "employment_type": "Full-time",
-      "compensation": "",
-      "provider": "lever",
-      "region_tags": [
-        "Remote"
-      ]
-    },
-    {
-      "id": "70c4f13d669e",
-      "title": "Sr. Customer Success Manager (Remote)",
-      "company": "Jobgether",
-      "source_key": "jobgether",
-      "location": "Connecticut",
-      "department": "General",
-      "job_url": "https://jobs.lever.co/jobgether/ea28f4b2-cfe1-4ff4-8fc7-0e724ce211a6",
-      "updated_at": "2026-04-23T06:02:25.497Z",
-      "employment_type": "Full-time",
-      "compensation": "",
-      "provider": "lever",
-      "region_tags": [
-        "Remote"
-      ]
-    },
-    {
-      "id": "9a285f5893f4",
-      "title": "Lead Customer Success Manager - REMOTE",
-      "company": "Jobgether",
-      "source_key": "jobgether",
-      "location": "Arizona",
-      "department": "General",
-      "job_url": "https://jobs.lever.co/jobgether/b1ccca46-0b70-4128-a801-ec37c84a9dc3",
-      "updated_at": "2026-04-23T06:02:24.819Z",
-      "employment_type": "Full-time",
-      "compensation": "",
-      "provider": "lever",
-      "region_tags": [
-        "Remote"
-      ]
-    },
-    {
-      "id": "6c730eb16215",
-      "title": "Senior Customer Success Manager",
-      "company": "Jobgether",
-      "source_key": "jobgether",
-      "location": "India",
-      "department": "Support",
-      "job_url": "https://jobs.lever.co/jobgether/6a36bb65-7a06-4d51-9703-0dd067ddda6e",
-      "updated_at": "2026-04-23T05:30:29.920Z",
-      "employment_type": "Full-time",
-      "compensation": "",
-      "provider": "lever",
-      "region_tags": [
-        "APAC"
-      ]
-    },
-    {
       "id": "44d51e85b937",
       "title": "Customer Success Manager (Nagoya)",
       "company": "Boxinc",
@@ -2894,22 +2122,6 @@
       "provider": "greenhouse",
       "region_tags": [
         "APAC"
-      ]
-    },
-    {
-      "id": "4fb047c268e9",
-      "title": "Customer Success Manager",
-      "company": "Jobgether",
-      "source_key": "jobgether",
-      "location": "UK",
-      "department": "Support",
-      "job_url": "https://jobs.lever.co/jobgether/16b1165a-55a3-4d68-b5e2-aefee649255a",
-      "updated_at": "2026-04-23T05:10:42.718Z",
-      "employment_type": "Full-time",
-      "compensation": "",
-      "provider": "lever",
-      "region_tags": [
-        "Europe/EMEA"
       ]
     },
     {
@@ -3269,23 +2481,6 @@
       "provider": "greenhouse",
       "region_tags": [
         "Remote"
-      ]
-    },
-    {
-      "id": "af9aa98c7e4a",
-      "title": "Customer Success Manager - North America",
-      "company": "Emplififr",
-      "source_key": "emplififr",
-      "location": "Remote - North America",
-      "department": "CSM",
-      "job_url": "https://emplifi.io/careers/open-positions/detail/7682033003?gh_jid=7682033003",
-      "updated_at": "2026-04-22T07:23:25-04:00",
-      "employment_type": "Not specified",
-      "compensation": "",
-      "provider": "greenhouse",
-      "region_tags": [
-        "Remote",
-        "US/Canada"
       ]
     },
     {
@@ -5447,23 +4642,6 @@
       ]
     },
     {
-      "id": "e983d1c51246",
-      "title": "Senior Customer Success Manager, Fed/SLED",
-      "company": "Abnormal Security",
-      "source_key": "abnormalsecurity",
-      "location": "Remote - USA",
-      "department": "CSM & Renewals",
-      "job_url": "https://abnormal.ai/careers/jobs/7674455003?gh_jid=7674455003",
-      "updated_at": "2026-04-03T11:31:53-04:00",
-      "employment_type": "Not specified",
-      "compensation": "",
-      "provider": "greenhouse",
-      "region_tags": [
-        "Remote",
-        "US/Canada"
-      ]
-    },
-    {
       "id": "e2d234f95ccd",
       "title": "Customer Success Manager",
       "company": "Firmpilotailawfirmmarketing",
@@ -6393,23 +5571,6 @@
       ]
     },
     {
-      "id": "39f0482896a5",
-      "title": "Customer Success Manager",
-      "company": "360Learning",
-      "source_key": "360learning",
-      "location": "Berlin, Remote",
-      "department": "Customer Success",
-      "job_url": "https://jobs.lever.co/360learning/f277d2be-05b0-47a7-a74c-f40a34540f57",
-      "updated_at": "2026-03-17T10:29:39.337Z",
-      "employment_type": "Full Time",
-      "compensation": "",
-      "provider": "lever",
-      "region_tags": [
-        "Europe/EMEA",
-        "Remote"
-      ]
-    },
-    {
       "id": "9b9ad6ba5d56",
       "title": "Customer Success Manager",
       "company": "Vectranetworks",
@@ -7332,22 +6493,6 @@
       ]
     },
     {
-      "id": "7d1238b1bb71",
-      "title": "Physical Therapy Field Customer Success Manager",
-      "company": "Limberhealth",
-      "source_key": "limberhealth",
-      "location": "Anywhere, USA",
-      "department": "Client Success",
-      "job_url": "https://jobs.lever.co/limberhealth/5ec6a4bf-269a-458d-b592-8837f75d6480",
-      "updated_at": "2025-12-23T19:55:57.317Z",
-      "employment_type": "Full-time",
-      "compensation": "",
-      "provider": "lever",
-      "region_tags": [
-        "US/Canada"
-      ]
-    },
-    {
       "id": "76dd73057801",
       "title": "Customer Success Manager II | AUS",
       "company": "Deel",
@@ -7639,23 +6784,6 @@
       ]
     },
     {
-      "id": "da190ded330c",
-      "title": "Enterprise Customer Success Manager",
-      "company": "Regrello",
-      "source_key": "regrello",
-      "location": "Remote - US - Eastern",
-      "department": "Customer",
-      "job_url": "https://jobs.lever.co/regrello/4f74bbf7-557f-4515-9120-1913702c9b1d",
-      "updated_at": "2024-06-10T21:51:09.927Z",
-      "employment_type": "Full-time",
-      "compensation": "",
-      "provider": "lever",
-      "region_tags": [
-        "Remote",
-        "US/Canada"
-      ]
-    },
-    {
       "id": "b31c00a3bdb3",
       "title": "Customer Success Manager Expansion (CSM) Mid-Market - France",
       "company": "Tryriot",
@@ -7701,22 +6829,6 @@
       "provider": "lever",
       "region_tags": [
         "US/Canada"
-      ]
-    },
-    {
-      "id": "357a82706335",
-      "title": "Customer Success Manager, Enterprise (Asia-Pacific)",
-      "company": "Regrello",
-      "source_key": "regrello",
-      "location": "India",
-      "department": "Customer",
-      "job_url": "https://jobs.lever.co/regrello/13d20f6a-20db-4ad0-b344-8e52c34bd5fd",
-      "updated_at": "2023-10-23T21:37:31.827Z",
-      "employment_type": "Full-time",
-      "compensation": "",
-      "provider": "lever",
-      "region_tags": [
-        "APAC"
       ]
     },
     {
@@ -7768,5 +6880,10 @@
         "Remote"
       ]
     }
-  ]
+  ],
+  "dead_link_scan": {
+    "scanned_at": "2026-05-05T12:59:33.111104+00:00",
+    "removed_count": 56,
+    "report": "data/dead-jobs-report.json"
+  }
 }

@@ -104,7 +104,7 @@ h1 {
   z-index: 3;
   display: grid;
   gap: 10px;
-  padding: 10px;
+  padding: 8px;
   background: rgba(8,9,10,.78);
   backdrop-filter: blur(18px) saturate(150%);
   border: 1px solid var(--line);
@@ -112,7 +112,7 @@ h1 {
   box-shadow: 0 20px 70px rgba(0,0,0,.38), inset 0 1px 0 rgba(255,255,255,.04);
 }
 label span { display:block; margin-bottom: 6px; color: var(--muted); font-size: 11px; font-weight: 700; letter-spacing: .03em; }
-input, select, button, .import-button {
+input, select, button {
   width: 100%;
   min-height: 44px;
   border: 1px solid var(--line);
@@ -123,17 +123,18 @@ input, select, button, .import-button {
   font: inherit;
   outline: none;
 }
-input:focus, select:focus, button:focus-visible, .import-button:focus-within {
+input:focus, select:focus, button:focus-visible {
   border-color: rgba(113,112,255,.7);
   box-shadow: 0 0 0 3px rgba(113,112,255,.16);
 }
+.search span { display: none; }
 .search input {
-  min-height: 48px;
+  min-height: 46px;
   border-radius: 18px;
   background: rgba(255,255,255,.06);
   font-size: 16px;
 }
-button, .import-button {
+button {
   cursor: pointer;
   font-size: 13px;
   font-weight: 800;
@@ -145,8 +146,6 @@ button[aria-pressed="true"] {
   background: linear-gradient(135deg, rgba(250,204,21,.24), rgba(113,112,255,.20));
   border-color: rgba(250,204,21,.50);
 }
-.import-button input { display:none; }
-
 .advanced-filters {
   border: 1px solid var(--line-soft);
   border-radius: 18px;
@@ -186,8 +185,9 @@ button[aria-pressed="true"] {
   font-size: 11px;
   font-weight: 600;
 }
-.grid-filters { display:grid; grid-template-columns: 1fr; gap: 10px; padding: 0 10px 10px; }
-.actions-row { display:grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
+.filter-body { padding: 0 10px 10px; }
+.grid-filters { display:grid; grid-template-columns: 1fr; gap: 10px; }
+.actions-row { display:grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 10px; }
 
 .job-list { display: grid; gap: 12px; margin-top: 14px; padding-bottom: 80px; }
 .card {
@@ -223,8 +223,7 @@ button[aria-pressed="true"] {
 }
 .star.active { color: var(--star); border-color: rgba(250,204,21,.55); background: rgba(250,204,21,.11); }
 .card-content { min-width: 0; flex: 1; }
-.card-topline { display:flex; justify-content:space-between; gap: 10px; color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: .08em; font-weight: 800; }
-.company-label { color: #62666d; }
+.card-topline { display:flex; justify-content:flex-end; min-height: 14px; color: var(--muted); font-size: 11px; }
 .company {
   margin: 6px 0 5px;
   color: #f7f8f8;
@@ -269,20 +268,18 @@ h2 { margin: 8px 0; font-size: 18px; line-height: 1.18; letter-spacing: -0.025em
   .stats { display: flex; align-items: center; justify-content: space-between; gap: 10px; text-align: left; }
   .stats-label { margin: 0; }
   .stats strong { font-size: 24px; }
-  .toolbar { top: 6px; border-radius: 20px; }
+  .toolbar { top: 6px; border-radius: 20px; padding: 6px; }
   .actions-row { position: relative; }
 }
 
 @media (min-width: 720px) {
   .hero, main { padding-left: 28px; padding-right: 28px; }
-  .toolbar { grid-template-columns: minmax(270px, 1.2fr) minmax(0, 2fr) auto; align-items: end; }
-  .advanced-filters { align-self: stretch; }
-  .advanced-filters summary { cursor: default; }
-  .advanced-filters summary::after { display: none; }
+  .toolbar { max-width: 680px; margin-left: auto; margin-right: auto; }
+  .advanced-filters { max-width: 980px; margin-left: auto; margin-right: auto; }
   .advanced-filters small { display: inline; }
   .grid-filters { grid-template-columns: repeat(4, minmax(0, 1fr)); }
-  .actions-row { grid-template-columns: repeat(4, auto); justify-content:end; }
-  .actions-row > * { width: auto; min-width: 86px; }
+  .actions-row { grid-template-columns: repeat(2, auto); justify-content:end; }
+  .actions-row > * { width: auto; min-width: 116px; }
   .job-list { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin-top: 18px; }
   .card { padding: 16px; transition: transform .18s ease, border-color .18s ease, background .18s ease; }
   .card:hover { transform: translateY(-2px); border-color: rgba(113,112,255,.28); background: linear-gradient(180deg, rgba(255,255,255,.075), rgba(255,255,255,.03)); }

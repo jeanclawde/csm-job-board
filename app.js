@@ -9,7 +9,7 @@ const $ = (id) => document.getElementById(id);
 const els = {
   search: $('searchInput'), region: $('regionFilter'), provider: $('providerFilter'),
   department: $('departmentFilter'), company: $('companyFilter'), starredOnly: $('starredOnly'),
-  clear: $('clearFilters'), exportStars: $('exportStars'), importStars: $('importStars'),
+  clear: $('clearFilters'),
   list: $('jobList'), template: $('jobCardTemplate'), empty: $('emptyState'),
   visible: $('visibleCount'), total: $('totalCount'), filterPanel: $('filterPanel'),
 };
@@ -67,9 +67,6 @@ function render() {
   }
 }
 function wireEvents() {
-  const syncFilterPanel = () => { els.filterPanel.open = window.matchMedia('(min-width: 720px)').matches; };
-  syncFilterPanel();
-  window.addEventListener('resize', syncFilterPanel);
   [els.search, els.region, els.provider, els.department, els.company].forEach(el => el.addEventListener('input', render));
   els.starredOnly.addEventListener('click', () => {
     state.starredOnly = !state.starredOnly;
@@ -79,18 +76,6 @@ function wireEvents() {
   els.clear.addEventListener('click', () => {
     els.search.value = els.region.value = els.provider.value = els.department.value = els.company.value = '';
     state.starredOnly = false; els.starredOnly.setAttribute('aria-pressed', 'false'); render();
-  });
-  els.exportStars.addEventListener('click', () => {
-    const payload = { exported_at: new Date().toISOString(), starred_job_ids: [...state.starred] };
-    const blob = new Blob([JSON.stringify(payload, null, 2)], {type: 'application/json'});
-    const url = URL.createObjectURL(blob);
-    const a = Object.assign(document.createElement('a'), { href: url, download: 'csm-starred-jobs.json' });
-    a.click(); URL.revokeObjectURL(url);
-  });
-  els.importStars.addEventListener('change', async (event) => {
-    const file = event.target.files?.[0]; if (!file) return;
-    const data = JSON.parse(await file.text());
-    state.starred = new Set(data.starred_job_ids || []); saveStars(); render(); event.target.value = '';
   });
 }
 async function init() {

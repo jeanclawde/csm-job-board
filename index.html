@@ -25,33 +25,32 @@
   </header>
 
   <main>
-    <section class="toolbar" aria-label="Filters">
+    <section class="toolbar" aria-label="Search">
       <label class="search">
         <span>Search</span>
         <input id="searchInput" type="search" placeholder="company, title, location…" autocomplete="off" />
       </label>
+    </section>
 
-      <details id="filterPanel" class="advanced-filters">
-        <summary>
-          <span>Fine-tune filters</span>
-          <small>Region, ATS, department, company</small>
-        </summary>
+    <details id="filterPanel" class="advanced-filters">
+      <summary>
+        <span>Filters</span>
+        <small>Region, ATS, department, company, starred</small>
+      </summary>
 
+      <div class="filter-body">
         <div class="grid-filters">
           <label><span>Region</span><select id="regionFilter"><option value="">All regions</option></select></label>
           <label><span>Provider</span><select id="providerFilter"><option value="">All ATS</option></select></label>
           <label><span>Department</span><select id="departmentFilter"><option value="">All departments</option></select></label>
           <label><span>Company</span><select id="companyFilter"><option value="">All companies</option></select></label>
         </div>
-      </details>
-
-      <div class="actions-row">
-        <button id="starredOnly" type="button" aria-pressed="false">⭐ Starred</button>
-        <button id="clearFilters" type="button">Reset</button>
-        <button id="exportStars" type="button">Export</button>
-        <label class="import-button">Import<input id="importStars" type="file" accept="application/json" /></label>
+        <div class="actions-row">
+          <button id="starredOnly" type="button" aria-pressed="false">⭐ Starred only</button>
+          <button id="clearFilters" type="button">Reset filters</button>
+        </div>
       </div>
-    </section>
+    </details>
 
     <section id="jobList" class="job-list" aria-live="polite"></section>
     <p id="emptyState" class="empty" hidden>No offers match these filters.</p>
@@ -62,7 +61,6 @@
       <button class="star" type="button" aria-label="Star offer">☆</button>
       <div class="card-content">
         <div class="card-topline">
-          <span class="company-label">Company</span>
           <span class="updated"></span>
         </div>
         <p class="company"></p>

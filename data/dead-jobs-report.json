@@ -1,0 +1,602 @@
+{
+  "scanned_at": "2026-05-05T12:59:33.111104+00:00",
+  "original_count": 484,
+  "removed_count": 56,
+  "kept_count": 428,
+  "status_counts": {
+    "alive": 426,
+    "dead": 56,
+    "keep": 2
+  },
+  "http_counts": {
+    "200": 425,
+    "404": 52,
+    "410": 4,
+    "403": 2,
+    "202": 1
+  },
+  "removed": [
+    {
+      "id": "cf738b4f9de3",
+      "company": "Jobgether",
+      "title": "Customer Success Manager",
+      "url": "https://jobs.lever.co/jobgether/86f2102c-28e8-4010-9ac0-65d47d3f983e",
+      "final_url": "https://jobs.lever.co/jobgether/86f2102c-28e8-4010-9ac0-65d47d3f983e",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "791dafec4596",
+      "company": "Jobgether",
+      "title": "Customer Success Manager",
+      "url": "https://jobs.lever.co/jobgether/0c7476bc-da3e-44ec-a524-6c86811283a6",
+      "final_url": "https://jobs.lever.co/jobgether/0c7476bc-da3e-44ec-a524-6c86811283a6",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "ffacf9d25bdf",
+      "company": "Jobgether",
+      "title": "Customer Success Manager - Defence and Intelligence",
+      "url": "https://jobs.lever.co/jobgether/ff1baad5-fdf0-4aff-a4b9-170ad793138c",
+      "final_url": "https://jobs.lever.co/jobgether/ff1baad5-fdf0-4aff-a4b9-170ad793138c",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "33be810c38a2",
+      "company": "Jobgether",
+      "title": "Customer Success Manager - Defence and Intelligence",
+      "url": "https://jobs.lever.co/jobgether/d6e2fb9e-a919-4834-b807-fcdec680863c",
+      "final_url": "https://jobs.lever.co/jobgether/d6e2fb9e-a919-4834-b807-fcdec680863c",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "d445ce645bcc",
+      "company": "Jobgether",
+      "title": "Remote Senior Customer Success Manager",
+      "url": "https://jobs.lever.co/jobgether/b882ddc6-b5b7-421f-b63b-ceebccc13c5d",
+      "final_url": "https://jobs.lever.co/jobgether/b882ddc6-b5b7-421f-b63b-ceebccc13c5d",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "36b1c641155e",
+      "company": "Jobgether",
+      "title": "Senior Customer Success Manager - Remote",
+      "url": "https://jobs.lever.co/jobgether/599c6fd3-de10-400d-b25e-c81f1646f4a4",
+      "final_url": "https://jobs.lever.co/jobgether/599c6fd3-de10-400d-b25e-c81f1646f4a4",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "b7e7022298da",
+      "company": "Jobgether",
+      "title": "Lead Customer Success Manager (Remote)",
+      "url": "https://jobs.lever.co/jobgether/2b426616-887b-4632-a434-765d3168f925",
+      "final_url": "https://jobs.lever.co/jobgether/2b426616-887b-4632-a434-765d3168f925",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "f0ed2fac82c5",
+      "company": "Jobgether",
+      "title": "Sr. Customer Success Manager - REMOTE",
+      "url": "https://jobs.lever.co/jobgether/8b6b04c8-32a1-4542-9203-cf158359a166",
+      "final_url": "https://jobs.lever.co/jobgether/8b6b04c8-32a1-4542-9203-cf158359a166",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "af30b6f615c7",
+      "company": "Jobgether",
+      "title": "Remote Customer Success Manager",
+      "url": "https://jobs.lever.co/jobgether/013227e3-3050-49b2-9ed5-6a1691346af6",
+      "final_url": "https://jobs.lever.co/jobgether/013227e3-3050-49b2-9ed5-6a1691346af6",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "861b3dc9b5f4",
+      "company": "Jobgether",
+      "title": "Customer Success Manager (Remote)",
+      "url": "https://jobs.lever.co/jobgether/2a87107c-3fb2-4c8d-b069-e47a9d77cf5b",
+      "final_url": "https://jobs.lever.co/jobgether/2a87107c-3fb2-4c8d-b069-e47a9d77cf5b",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "13b830171223",
+      "company": "Jobgether",
+      "title": "Customer Success Manager - REMOTE",
+      "url": "https://jobs.lever.co/jobgether/d91d9cfc-0eeb-4197-b02c-1e590ca09ff1",
+      "final_url": "https://jobs.lever.co/jobgether/d91d9cfc-0eeb-4197-b02c-1e590ca09ff1",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "c286375b7393",
+      "company": "Jobgether",
+      "title": "Customer Success Manager",
+      "url": "https://jobs.lever.co/jobgether/7a929536-92cc-45ed-8517-5d65036b6dd3",
+      "final_url": "https://jobs.lever.co/jobgether/7a929536-92cc-45ed-8517-5d65036b6dd3",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "e8fcbae05d6d",
+      "company": "Jobgether",
+      "title": "Senior Customer Success Manager Remote",
+      "url": "https://jobs.lever.co/jobgether/ac26c073-22db-4d0a-b2b0-62aef819771e",
+      "final_url": "https://jobs.lever.co/jobgether/ac26c073-22db-4d0a-b2b0-62aef819771e",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "59345157b838",
+      "company": "Jobgether",
+      "title": "Remote Customer Success Manager - Sr.",
+      "url": "https://jobs.lever.co/jobgether/c3614aa2-f68f-4bf6-a935-702daab95b28",
+      "final_url": "https://jobs.lever.co/jobgether/c3614aa2-f68f-4bf6-a935-702daab95b28",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "bbd4b65f7e7b",
+      "company": "Jobgether",
+      "title": "Remote Sr Customer Success Manager",
+      "url": "https://jobs.lever.co/jobgether/26aba92e-e1be-42c5-b4f1-03f865f5ef77",
+      "final_url": "https://jobs.lever.co/jobgether/26aba92e-e1be-42c5-b4f1-03f865f5ef77",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "79d55200298e",
+      "company": "Jobgether",
+      "title": "Customer Success Manager (Remote)",
+      "url": "https://jobs.lever.co/jobgether/7b1ff9ef-d9bb-44c9-91a5-46ebb19f2869",
+      "final_url": "https://jobs.lever.co/jobgether/7b1ff9ef-d9bb-44c9-91a5-46ebb19f2869",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "303ddfcf4bb6",
+      "company": "Jobgether",
+      "title": "Remote Lead Customer Success Manager",
+      "url": "https://jobs.lever.co/jobgether/4771ebfb-6787-4a2f-a860-1a1220e2e170",
+      "final_url": "https://jobs.lever.co/jobgether/4771ebfb-6787-4a2f-a860-1a1220e2e170",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "510fb02bec4a",
+      "company": "Jobgether",
+      "title": "Customer Success Manager - REMOTE",
+      "url": "https://jobs.lever.co/jobgether/efc4c353-c341-4bc9-9352-84faaa46facd",
+      "final_url": "https://jobs.lever.co/jobgether/efc4c353-c341-4bc9-9352-84faaa46facd",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "e9c781dc19d8",
+      "company": "Jobgether",
+      "title": "Remote Senior Customer Success Manager",
+      "url": "https://jobs.lever.co/jobgether/c201f4d8-6976-4c2d-8cd9-b3194b34de72",
+      "final_url": "https://jobs.lever.co/jobgether/c201f4d8-6976-4c2d-8cd9-b3194b34de72",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "3a4631beb5ed",
+      "company": "Jobgether",
+      "title": "Lead Customer Success Manager (Remote)",
+      "url": "https://jobs.lever.co/jobgether/d7b30a20-1041-48f3-8dd1-4b8970e92b70",
+      "final_url": "https://jobs.lever.co/jobgether/d7b30a20-1041-48f3-8dd1-4b8970e92b70",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "a0f3b12b3999",
+      "company": "Jobgether",
+      "title": "Senior Customer Success Manager (Remote)",
+      "url": "https://jobs.lever.co/jobgether/a00802e5-0379-46e7-bf12-2857f050eaf1",
+      "final_url": "https://jobs.lever.co/jobgether/a00802e5-0379-46e7-bf12-2857f050eaf1",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "2be2f267f732",
+      "company": "Jobgether",
+      "title": "Remote Sr. Customer Success Manager",
+      "url": "https://jobs.lever.co/jobgether/47b1119f-5b5a-416c-95d6-df7d89fe3528",
+      "final_url": "https://jobs.lever.co/jobgether/47b1119f-5b5a-416c-95d6-df7d89fe3528",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "6f3bd4972b09",
+      "company": "Jobgether",
+      "title": "Sr Customer Success Manager - REMOTE",
+      "url": "https://jobs.lever.co/jobgether/abe9479c-38c7-4c9a-8543-7397666d0d28",
+      "final_url": "https://jobs.lever.co/jobgether/abe9479c-38c7-4c9a-8543-7397666d0d28",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "cb4c27b4ae7a",
+      "company": "Jobgether",
+      "title": "Remote Customer Success Manager",
+      "url": "https://jobs.lever.co/jobgether/5ddff3a2-76af-4369-8fbc-65487c20e5d0",
+      "final_url": "https://jobs.lever.co/jobgether/5ddff3a2-76af-4369-8fbc-65487c20e5d0",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "2fb1c818ca04",
+      "company": "Jobgether",
+      "title": "Lead Customer Success Manager - Remote",
+      "url": "https://jobs.lever.co/jobgether/81d667d7-3e94-4a96-b9f4-645d52171503",
+      "final_url": "https://jobs.lever.co/jobgether/81d667d7-3e94-4a96-b9f4-645d52171503",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "7621d5788d47",
+      "company": "Jobgether",
+      "title": "Remote Senior Customer Success Manager",
+      "url": "https://jobs.lever.co/jobgether/d04e7d1b-98ac-4337-8105-956e628a0c4a",
+      "final_url": "https://jobs.lever.co/jobgether/d04e7d1b-98ac-4337-8105-956e628a0c4a",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "8e539c6aa4f6",
+      "company": "Jobgether",
+      "title": "Sr. Customer Success Manager (Remote)",
+      "url": "https://jobs.lever.co/jobgether/5dc8d90d-c242-4958-8cd3-90b5b2709f1b",
+      "final_url": "https://jobs.lever.co/jobgether/5dc8d90d-c242-4958-8cd3-90b5b2709f1b",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "6a7d3e89e5a8",
+      "company": "Jobgether",
+      "title": "Senior Customer Success Manager - REMOTE",
+      "url": "https://jobs.lever.co/jobgether/26ff237d-7219-433c-b3d3-fd17c7e8c59a",
+      "final_url": "https://jobs.lever.co/jobgether/26ff237d-7219-433c-b3d3-fd17c7e8c59a",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "8cbc7212735c",
+      "company": "Remoterecruitment",
+      "title": "Customer Success Manager",
+      "url": "https://remoterecruitment.teamtailor.com/jobs/7637716-customer-success-manager",
+      "final_url": "https://remoterecruitment.teamtailor.com/jobs/7637716-customer-success-manager",
+      "scan_status": "dead",
+      "http_status": 410,
+      "reason": "http_410"
+    },
+    {
+      "id": "45d687f0646e",
+      "company": "Remoterecruitment",
+      "title": "Customer Success Manager",
+      "url": "https://remoterecruitment.teamtailor.com/jobs/7637715-customer-success-manager",
+      "final_url": "https://remoterecruitment.teamtailor.com/jobs/7637715-customer-success-manager",
+      "scan_status": "dead",
+      "http_status": 410,
+      "reason": "http_410"
+    },
+    {
+      "id": "32b4df4f015f",
+      "company": "Remoterecruitment",
+      "title": "Customer Success Manager",
+      "url": "https://remoterecruitment.teamtailor.com/jobs/7637714-customer-success-manager",
+      "final_url": "https://remoterecruitment.teamtailor.com/jobs/7637714-customer-success-manager",
+      "scan_status": "dead",
+      "http_status": 410,
+      "reason": "http_410"
+    },
+    {
+      "id": "b0930f2c862f",
+      "company": "Remoterecruitment",
+      "title": "Customer Success Manager",
+      "url": "https://remoterecruitment.teamtailor.com/jobs/7637713-customer-success-manager",
+      "final_url": "https://remoterecruitment.teamtailor.com/jobs/7637713-customer-success-manager",
+      "scan_status": "dead",
+      "http_status": 410,
+      "reason": "http_410"
+    },
+    {
+      "id": "5b16b465b168",
+      "company": "Jobgether",
+      "title": "Strategic Customer Success Manager",
+      "url": "https://jobs.lever.co/jobgether/31e836c9-9c6f-4bb6-998d-d523f869ef5c",
+      "final_url": "https://jobs.lever.co/jobgether/31e836c9-9c6f-4bb6-998d-d523f869ef5c",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "d1d8b31b7d0b",
+      "company": "Jobgether",
+      "title": "Senior Customer Success Manager, Enterprise",
+      "url": "https://jobs.lever.co/jobgether/50c9e89f-0380-47e8-836b-0548e06a094e",
+      "final_url": "https://jobs.lever.co/jobgether/50c9e89f-0380-47e8-836b-0548e06a094e",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "7cdf6abea4a7",
+      "company": "Jobgether",
+      "title": "Customer Success Manager",
+      "url": "https://jobs.lever.co/jobgether/6fe3bb5e-962c-4697-b2ba-f94f963c6ec1",
+      "final_url": "https://jobs.lever.co/jobgether/6fe3bb5e-962c-4697-b2ba-f94f963c6ec1",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "4b640b535326",
+      "company": "Jobgether",
+      "title": "Customer Success Manager, Strategic",
+      "url": "https://jobs.lever.co/jobgether/5d736ac7-3f31-4a0f-97bf-dc30cb0e98ca",
+      "final_url": "https://jobs.lever.co/jobgether/5d736ac7-3f31-4a0f-97bf-dc30cb0e98ca",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "6bf0f55d71f6",
+      "company": "Jobgether",
+      "title": "Customer Success Manager (Remote)",
+      "url": "https://jobs.lever.co/jobgether/98a6c314-9bba-4329-a053-267e8a04cb28",
+      "final_url": "https://jobs.lever.co/jobgether/98a6c314-9bba-4329-a053-267e8a04cb28",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "7f3ccb7d2a00",
+      "company": "Jobgether",
+      "title": "Remote Lead Customer Success Manager",
+      "url": "https://jobs.lever.co/jobgether/d2ab5fc2-aa30-41a4-84e7-79221e31aeb0",
+      "final_url": "https://jobs.lever.co/jobgether/d2ab5fc2-aa30-41a4-84e7-79221e31aeb0",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "d5d3c2b9c84a",
+      "company": "Jobgether",
+      "title": "Customer Success Manager - REMOTE",
+      "url": "https://jobs.lever.co/jobgether/4e0af263-34d3-4852-8fc6-feeb8c41f9ae",
+      "final_url": "https://jobs.lever.co/jobgether/4e0af263-34d3-4852-8fc6-feeb8c41f9ae",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "7040b6ba9396",
+      "company": "Jobgether",
+      "title": "Lead Customer Success Manager (Remote)",
+      "url": "https://jobs.lever.co/jobgether/cf90e566-be18-4c90-9080-38f9e361a12c",
+      "final_url": "https://jobs.lever.co/jobgether/cf90e566-be18-4c90-9080-38f9e361a12c",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "f44b335d3859",
+      "company": "Jobgether",
+      "title": "Remote Sr. Customer Success Manager",
+      "url": "https://jobs.lever.co/jobgether/1f4443d2-f4c0-4f2e-a323-ade03d64967e",
+      "final_url": "https://jobs.lever.co/jobgether/1f4443d2-f4c0-4f2e-a323-ade03d64967e",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "513bfbc1ed54",
+      "company": "Jobgether",
+      "title": "Remote Customer Success Manager",
+      "url": "https://jobs.lever.co/jobgether/7fc7c7df-683e-423b-9f17-43a32385e7de",
+      "final_url": "https://jobs.lever.co/jobgether/7fc7c7df-683e-423b-9f17-43a32385e7de",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "0bee8ead5b7e",
+      "company": "Jobgether",
+      "title": "Senior Customer Success Manager (Remote)",
+      "url": "https://jobs.lever.co/jobgether/36bdd246-7963-4b3e-8a43-89d1ae66189a",
+      "final_url": "https://jobs.lever.co/jobgether/36bdd246-7963-4b3e-8a43-89d1ae66189a",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "c2d4904f3dc1",
+      "company": "Jobgether",
+      "title": "Remote Senior Customer Success Manager",
+      "url": "https://jobs.lever.co/jobgether/ac6c7e8d-6c5d-4b29-b069-ff6c4e228411",
+      "final_url": "https://jobs.lever.co/jobgether/ac6c7e8d-6c5d-4b29-b069-ff6c4e228411",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "1cb3b287bff5",
+      "company": "Jobgether",
+      "title": "Sr Customer Success Manager - REMOTE",
+      "url": "https://jobs.lever.co/jobgether/8e70c54d-5a01-48cb-816c-cbcaad5017a7",
+      "final_url": "https://jobs.lever.co/jobgether/8e70c54d-5a01-48cb-816c-cbcaad5017a7",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "db3e89927c93",
+      "company": "Jobgether",
+      "title": "Senior Customer Success Manager - Remote",
+      "url": "https://jobs.lever.co/jobgether/add4b57c-7d0c-4669-a05c-347cd65fbe56",
+      "final_url": "https://jobs.lever.co/jobgether/add4b57c-7d0c-4669-a05c-347cd65fbe56",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "70c4f13d669e",
+      "company": "Jobgether",
+      "title": "Sr. Customer Success Manager (Remote)",
+      "url": "https://jobs.lever.co/jobgether/ea28f4b2-cfe1-4ff4-8fc7-0e724ce211a6",
+      "final_url": "https://jobs.lever.co/jobgether/ea28f4b2-cfe1-4ff4-8fc7-0e724ce211a6",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "9a285f5893f4",
+      "company": "Jobgether",
+      "title": "Lead Customer Success Manager - REMOTE",
+      "url": "https://jobs.lever.co/jobgether/b1ccca46-0b70-4128-a801-ec37c84a9dc3",
+      "final_url": "https://jobs.lever.co/jobgether/b1ccca46-0b70-4128-a801-ec37c84a9dc3",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "6c730eb16215",
+      "company": "Jobgether",
+      "title": "Senior Customer Success Manager",
+      "url": "https://jobs.lever.co/jobgether/6a36bb65-7a06-4d51-9703-0dd067ddda6e",
+      "final_url": "https://jobs.lever.co/jobgether/6a36bb65-7a06-4d51-9703-0dd067ddda6e",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "4fb047c268e9",
+      "company": "Jobgether",
+      "title": "Customer Success Manager",
+      "url": "https://jobs.lever.co/jobgether/16b1165a-55a3-4d68-b5e2-aefee649255a",
+      "final_url": "https://jobs.lever.co/jobgether/16b1165a-55a3-4d68-b5e2-aefee649255a",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "af9aa98c7e4a",
+      "company": "Emplififr",
+      "title": "Customer Success Manager - North America",
+      "url": "https://emplifi.io/careers/open-positions/detail/7682033003?gh_jid=7682033003",
+      "final_url": "https://emplifi.io/careers/open-positions/detail/7682033003?gh_jid=7682033003",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "e983d1c51246",
+      "company": "Abnormal Security",
+      "title": "Senior Customer Success Manager, Fed/SLED",
+      "url": "https://abnormal.ai/careers/jobs/7674455003?gh_jid=7674455003",
+      "final_url": "https://abnormal.ai/careers/jobs/7674455003?gh_jid=7674455003",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "39f0482896a5",
+      "company": "360Learning",
+      "title": "Customer Success Manager",
+      "url": "https://jobs.lever.co/360learning/f277d2be-05b0-47a7-a74c-f40a34540f57",
+      "final_url": "https://jobs.lever.co/360learning/f277d2be-05b0-47a7-a74c-f40a34540f57",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "7d1238b1bb71",
+      "company": "Limberhealth",
+      "title": "Physical Therapy Field Customer Success Manager",
+      "url": "https://jobs.lever.co/limberhealth/5ec6a4bf-269a-458d-b592-8837f75d6480",
+      "final_url": "https://jobs.lever.co/limberhealth/5ec6a4bf-269a-458d-b592-8837f75d6480",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "da190ded330c",
+      "company": "Regrello",
+      "title": "Enterprise Customer Success Manager",
+      "url": "https://jobs.lever.co/regrello/4f74bbf7-557f-4515-9120-1913702c9b1d",
+      "final_url": "https://jobs.lever.co/regrello/4f74bbf7-557f-4515-9120-1913702c9b1d",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    },
+    {
+      "id": "357a82706335",
+      "company": "Regrello",
+      "title": "Customer Success Manager, Enterprise (Asia-Pacific)",
+      "url": "https://jobs.lever.co/regrello/13d20f6a-20db-4ad0-b344-8e52c34bd5fd",
+      "final_url": "https://jobs.lever.co/regrello/13d20f6a-20db-4ad0-b344-8e52c34bd5fd",
+      "scan_status": "dead",
+      "http_status": 404,
+      "reason": "http_404"
+    }
+  ],
+  "kept_ambiguous": [
+    {
+      "id": "dab3ddf83c6e",
+      "company": "Dropbox",
+      "title": "Customer Success Manager",
+      "url": "https://jobs.dropbox.com/listing/7687651?gh_jid=7687651",
+      "final_url": "https://www.dropbox.jobs/listing/7687651?gh_jid=7687651",
+      "scan_status": "keep",
+      "http_status": 403,
+      "reason": "ambiguous_http_403"
+    },
+    {
+      "id": "2730d8540956",
+      "company": "Dropbox",
+      "title": "Customer Success Manager",
+      "url": "https://jobs.dropbox.com/listing/7687652?gh_jid=7687652",
+      "final_url": "https://www.dropbox.jobs/listing/7687652?gh_jid=7687652",
+      "scan_status": "keep",
+      "http_status": 403,
+      "reason": "ambiguous_http_403"
+    }
+  ]
+}

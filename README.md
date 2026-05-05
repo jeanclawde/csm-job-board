@@ -1,14 +1,14 @@
 # CSM Job Board
 
-Private GitHub project for browsing 484 Customer Success Manager roles from the provided CSV.
+Public GitHub project for browsing 428 live Customer Success Manager roles from the provided CSV.
 
 ## What exists now
 
 - Static, mobile-first job board: `index.html`, `styles.css`, `app.js`
 - Data generated from the CSV: `data/jobs.json`
-- Filters by search, region, ATS provider, department, and company
+- Filters by search, region, ATS provider, department, company, and starred-only mode
 - Starred shortlist saved in the browser with `localStorage`
-- Export/import starred jobs as JSON, useful as a basic backup for smartphone use
+- Dead-link scan report: `data/dead-jobs-report.json`
 
 ## Starring strategy
 
@@ -16,7 +16,6 @@ For the first version, browser storage is the right trade-off:
 
 - **Pros:** zero login, no backend, works perfectly on smartphone, private by default to her device/browser.
 - **Cons:** stars do not automatically sync across browsers/devices and can disappear if browser data is cleared.
-- **Mitigation already included:** export/import starred jobs.
 
 If she needs cross-device sync later, add one of these:
 
