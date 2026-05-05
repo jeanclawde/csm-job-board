@@ -5,3 +5,10 @@
 
 # local server/cache
 *.log
+
+# Local scraper cache: raw extracted offer text, useful locally but noisy for the public repo
+data/job-description-cache.json
+
+# Python
+__pycache__/
+*.pyc

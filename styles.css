@@ -243,7 +243,13 @@ button[aria-pressed="true"] {
 }
 .updated { white-space: nowrap; color: #62666d; text-transform: none; letter-spacing: 0; }
 h2 { margin: 8px 0; font-size: 18px; line-height: 1.18; letter-spacing: -0.025em; font-weight: 700; }
-.meta { margin: 0 0 10px; color: var(--muted); font-size: 13px; line-height: 1.35; }
+.meta { margin: 0 0 8px; color: var(--muted); font-size: 13px; line-height: 1.35; }
+.description {
+  margin: 0 0 12px;
+  color: var(--soft);
+  font-size: 13px;
+  line-height: 1.45;
+}
 .chips { display:flex; flex-wrap:wrap; gap: 6px; margin-bottom: 12px; }
 .chip {
   padding: 5px 8px;

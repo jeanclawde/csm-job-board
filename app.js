@@ -47,7 +47,7 @@ function formatDate(value) {
 }
 function matches(job) {
   const q = els.search.value.trim().toLowerCase();
-  const haystack = [job.title, job.company, job.location, job.department, job.provider, job.source_key].join(' ').toLowerCase();
+  const haystack = [job.title, job.company, job.location, job.department, job.provider, job.source_key, job.short_description].join(' ').toLowerCase();
   return (!q || haystack.includes(q))
     && (!els.region.value || job.region_tags.includes(els.region.value))
     && (!els.provider.value || job.provider === els.provider.value)
@@ -74,6 +74,9 @@ function render() {
     node.querySelector('.updated').textContent = formatDate(job.updated_at);
     node.querySelector('h2').textContent = job.title;
     node.querySelector('.meta').textContent = `${job.location} · ${job.employment_type}`;
+    const description = node.querySelector('.description');
+    description.textContent = job.short_description || 'Description coming soon.';
+    description.hidden = !job.short_description;
     const chips = node.querySelector('.chips');
     for (const value of [job.department, job.provider, ...job.region_tags].filter(Boolean)) {
       const chip = document.createElement('span'); chip.className = 'chip'; chip.textContent = value; chips.append(chip);

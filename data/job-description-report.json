@@ -1,0 +1,12 @@
+{
+  "generated_at": "2026-05-05T14:29:04.860682+00:00",
+  "total_jobs": 428,
+  "descriptions_present": 428,
+  "ok": 395,
+  "fallback": 33,
+  "pending": 0,
+  "quality_checks": {
+    "empty_or_too_long_or_over_2_sentences": 0
+  },
+  "notes": "Fallback means the page was blocked, JS-heavy, too thin, or looked unrelated; the app still shows a conservative two-sentence placeholder."
+}
