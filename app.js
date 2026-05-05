@@ -1,7 +1,19 @@
 const STAR_KEY = 'csm-job-board:starred-job-ids:v1';
+
+function loadStarredIds() {
+  try {
+    const parsed = JSON.parse(localStorage.getItem(STAR_KEY) || '[]');
+    return Array.isArray(parsed) ? parsed : [];
+  } catch (error) {
+    console.warn('Could not read starred jobs from localStorage. Resetting stars.', error);
+    try { localStorage.removeItem(STAR_KEY); } catch (_) {}
+    return [];
+  }
+}
+
 const state = {
   jobs: [],
-  starred: new Set(JSON.parse(localStorage.getItem(STAR_KEY) || '[]')),
+  starred: new Set(loadStarredIds()),
   starredOnly: false,
 };
 
@@ -20,7 +32,13 @@ function addOptions(select, values) {
     const option = document.createElement('option'); option.value = value; option.textContent = value; select.append(option);
   }
 }
-function saveStars() { localStorage.setItem(STAR_KEY, JSON.stringify([...state.starred])); }
+function saveStars() {
+  try {
+    localStorage.setItem(STAR_KEY, JSON.stringify([...state.starred]));
+  } catch (error) {
+    console.warn('Could not save starred jobs to localStorage.', error);
+  }
+}
 function formatDate(value) {
   if (!value) return '';
   const date = new Date(value);
